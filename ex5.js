@@ -4,29 +4,29 @@ var longueur = myVar.length;
 var lettre = myVar.substring(0,longueur);
 var voyelles=0;
 
-for (lettre;lettre<=longueur;longueur++)
+for (i=0;i<longueur;i++)
 {
-if (a)
-{
-voyelles=voyelles+1;
-}
-else if (e)
+if ("a")
 {
 voyelles++;
 }
-else if (i)
+else if ("e")
 {
 voyelles++;
 }
-else if (o)
+else if ("i")
 {
 voyelles++;
 }
-else if (u)
+else if ("o")
 {
 voyelles++;
 }
-else if (y)
+else if ("u")
+{
+voyelles++;
+}
+else if ("y")
 {
 voyelles++;
 }
