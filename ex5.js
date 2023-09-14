@@ -1,39 +1,37 @@
 var myVar=window.prompt("Entrez un mot en minuscule:");
-
 var longueur = myVar.length;
-var lettre = myVar.substring(0,longueur);
+var i=0;
+// var mot = myVar.substring(n,longueur);
 var voyelles=0;
 
-for (i=0;i<longueur;i++)
+for (i=0; i<=longueur; i++)
 {
-if ("a")
-{
-voyelles++;
-}
-else if ("e")
+    var n= myVar.substring(i,i+1);
+if (n=="a")
 {
 voyelles++;
 }
-else if ("i")
+else if (n=="e")
 {
 voyelles++;
 }
-else if ("o")
+else if (n=="i")
 {
 voyelles++;
 }
-else if ("u")
+else if (n=="o")
 {
 voyelles++;
 }
-else if ("y")
+else if (n=="u")
 {
 voyelles++;
 }
-else
+else if (n=="y")
 {
-    voyelle==voyelle;
+voyelles++;
 }
+
 }
 
 window.alert("Il y a "+voyelles+" voyelles");
